@@ -1,0 +1,12 @@
+{
+  "name": "event-loop-practice",
+  "version": "1.0.0",
+  "description": "Event loop practice",
+  "main": "event-loop.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set UV_THREADPOOL_SIZE=1 & node event-loop.js"
+  },
+  "author": "Atanas Atanasov",
+  "license": "ISC"
+}
